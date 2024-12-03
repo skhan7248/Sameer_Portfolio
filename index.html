@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sameer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f60803f805.js" crossorigin="anonymous"></script>
+</head>
+<div>
+  <div id="header">
+<nav>
+  <h1>Sameer  Portfolio</h1>
+  <h1> </h1>
+  <ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+  </ul>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+  <h1>Hi, I am <Span>Sameer Khan</Span> <br> from India</h1>
+  <p>Java Developer <br>Web Developer<br> Data Analytics <br> Full Stack Developer</p>
+</div>
+  </div>
+  </div>
+<div id ="about">
+  <div class="container">
+    <div class="row">
+      <div class="abouy-col-1">
+        <img src=spic.jpg height="700" width="500" alt>
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+      <p> My name is Sameer Khan. I am belongs to India(Uttar Pradesh). I am graduated from B. N. College of Engineering and Technology in Bachelor of Technology(Computer Science Engineering).<br> <br>  I have skilled in Programming Languages:-   C, Java, Python, JavaScript <br> <br> Tools and Technologies:- HTML, CSS(Tailwind CSS), Eclipse, JSP, Hibernate, springboot, Power Bi, API's <br> <br> Database: SQL, MySQL.  I am passionate to build  and deploy best software and Web Applications. <br>  I have passionate in Data Analyst</p> <div class="tab-titles">
+      <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+      <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+      <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+    </div>
+    <div class="tab-contains active-tab" id="skills">
+      <ul>
+        <li><span>Java Developer<br></span></li>
+        <li><span>Web Developer<br></span></li>
+         <li><span> Full Stack Developer<br></span></li>
+         <li><span>Data Analyst<br></span></li>
+      </ul>
+        </div>
+        <div class="tab-contains" id="education">
+          <ul>
+            <li><span>Dr. A.P.J. Abdul Kalam Technical University, Lucknow    (2019-2023)<br></span></li>
+            <li><span>B.N. College of Engineering and Technology<br></span></li>
+             <li><span>Bachelor of Technology, Computer Science Engineering<br></span></li>
+          </ul>
+            </div>
+            <div class="tab-contains" id="experience">
+              <ul>
+                <li><span>Fresher<br></span></li>
+              
+              </ul>
+                </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+<!----Services section-->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-titles">My Services</h1>
+    <div class="services-list">
+    <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Java Developer</h2>
+        <p> I have good knowledge of Java Developer. Java is Object oriented programming language. I worked on java projects</p>
+      <a href="#">learn more</a>
+      </div>
+    <div>
+      <i class="fa-solid fa-crop-simple"></i>
+        <h2>Full Stack Java  Developer</h2>
+        <p> Depelope web application based on HTML, CSS, JavaScript, Database, Java</p>
+      <a href="#">learn more</a>
+      </div>
+<div>
+  <i class="fa-brands fa-connectdevelop"></i>
+        <h2>Data Analytics</h2>
+        <p> Analyse big data by using power Bi and makes Data flow Diagram</p>
+      <a href="#">learn more</a>
+      </div>
+      </div>
+      <!-- portfolio-->
+       <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="softw.png">
+              <div class="layer">
+              <h3>Web Application</h3>
+              <p> Use a strong web application to improve your Java, leadrship skills</p>
+             <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+              <img src="sof.jpeg">
+            <div class="layer">
+              <h3>Data Analytics</h3>
+              <p> Use strong data analytics techniques to analyse data through Power Bi , SQL</p>
+             <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+              <img src="jav.png">
+              <div class="layer">
+                <h3>Java Application</h3>
+                <p> Use a strong web application to improve your Java, leadrship skills</p>
+               <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class ="btn">See more</a>
+        </div>
+       </div>
+       <!--- Contact section-->
+       <div id="contact">
+        <div class ="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+           <p><i class="fa-solid fa-envelope"></i>  skhan9140257248@gmail.com</p>
+             <p> <i class="fa-solid fa-phone"></i>   9140257248</p>
+            <div class="social-icon">
+         <br> <a href="https://www.linkedin.com/in/sameer-khan-512222228"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="@skhan.pdf" class="btn s">My Resume</a>
+        </div>
+        <div class="contact-right">
+          <h4>Contact me</h4> <br> 
+          <br>
+    <form method="post" id ="form">
+            <div class="form-outer">
+              <label>Name</label>
+              <input type="text" name="name">
+            </div>
+            <div class="form-outer">
+              <label>Email</label>
+              <input type="email" name="email">
+            </div>
+            <div class="form-outer">
+              <label>Message</label>
+              <input type="message" name="message">
+            </div>
+<div class="form-outer">
+  <button name="btn2">submit</button>
+  <form>
+    <span id="msg">hi</span>
+  </form>
+</div>
+       </form>   
+        </div>
+        </div>
+        </div>
+    <div class="copyright">
+      <p>Copyright @ Sameer.</p>
+    </div>
+       </div>
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontains =document .getElementsByClassName("tab-contains");
+function opentab(tabname){
+  for(tablink of tablinks)
+{
+  tablink.classList.remove("active-link");
+}
+for(tabcontain of tabcontains){
+  tabcontain.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemeu.style.right = "0";
+  }
+  function openmenu(){
+    sidemeu.style.right = "-200px";
+  }
+</script>
+
+</body>
+<script>
+let url='https://script.google.com/macros/s/AKfycbx2dMtT62Y9vV1juGKuSKcCXtBkWH-lduu69XUrHHsTOtH2d4sPUluVm12WDoHcxHel/exec'
+let form=document.querySelector('#form');
+const msg=document.getElementById("msg")
+form.addEventListener("submit",(e)=>{
+  let d=new FormData(form);
+  fetch(url,{
+    method: "POST",
+    body: d
+    }).then((res)=>res.text())
+    .then((finalRes)=>console.log(finalRes))
+    .then(response =>{
+      msg.innerHTML="Message sent successfully";
+      setTimeout(function(){
+        msg.innerHTML=""
+      },5000)
+      form.reset()
+    })
+  e.preventDefault();
+})
+
+</script>
+</html>
